@@ -8,7 +8,7 @@ JEC intends to provide a well defined and easy-to-use infrastructure to JavaScri
 - an integrated solution for modern Web development
 - an effective solution for JavaScript apps scalability 
 
-Short presentations of JEC technologies are available from the [JEC/presentations](JEC/presentations) folder.
+Short presentations of JEC technologies are available from the [JEC/presentations](presentations) folder.
 
 **The current repository only contains information about the different JEC technologies available at [github.com/pechemann](https://github.com/pechemann).**
 
