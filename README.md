@@ -13,8 +13,8 @@ Short presentations of JEC technologies are available from the [JEC/presentation
 **The current repository only contains information about the different JEC technologies available at [github.com/pechemann](https://github.com/pechemann).**
 
 ## Table of Contents
-* [GlassCat Application Server](#glassCat-application-server)
-  * [GlassCat In Action](#glassCat-in-action)
+* [GlassCat Application Server](#glasscat-application-server)
+  * [GlassCat In Action](#glasscat-in-action)
   * [Jslet Technology](#jslet-technology)
   * [Entreprise JavaScript Projects *(EJP)*](#entreprise-javascript-projects-ejp)
   * [Non-blocking Architecture](#non-blocking-architecture)
@@ -167,6 +167,6 @@ Pascal has created and developed, among other things, the following frameworks a
 To hire Pascal, please contact him from his [linkedin profile](https://www.linkedin.com/in/echemann/).
 
 ## License
-This work and the content of the [`assets`](assets) package are licensed under Apache 2.0. Full license text is available in [COPYING](copying).
+This work and the content of the [`assets`](assets) package are licensed under Apache 2.0. Full license text is available in [COPYING](COPYING).
 
 The content of the [`presentations`](presentations)  package is licensed under the *French copyright terms*, defined in the first book of the [Code of intellectual property](https://www.legifrance.gouv.fr/affichCode.do?cidTexte=LEGITEXT000006069414&dateTexte=20170409).
