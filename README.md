@@ -146,7 +146,7 @@ The following projects, available at [github.com/pechemann](https://github.com/p
 - **[jec-sandcat](https://github.com/pechemann/jec-sandcat)**: the official Sandcat repository; Sandcat is the default implementation of the JARS specification.
 - **[jec-bobcat](https://github.com/pechemann/jec-bobcat)**: the official Bobcat repository. Bobcat is the default implementation of the JDI specification.
 - **[jec-wildcat](https://github.com/pechemann/jec-wildcat)**: the official Wildcat repository; Wildcat is the default archetypes manager for the GlassCat Application Server.
-- **[jec-jmocha](https://github.com/pechemann/jec-jmocha)**: the GlassCat JUTA implementation, based upon the [Mocha JavaScript test framework](https://mochajs.org/).
+- **[jec-tiger](https://github.com/pechemann/jec-tiger)**: the GlassCat JUTA implementation, based upon the [Mocha JavaScript test framework](https://mochajs.org/).
 
 ## Roadmap
 
