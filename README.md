@@ -67,7 +67,7 @@ Thus, GlassCat is the perfect solution for building distributed applications suc
 
 ### Final Architecture
 
-The [jec-glasscat-poc-src](https://github.com/pechemann/glasscat-poc-src) repository contains the source code for the current GlassCat release.
+The [jec-glasscat-poc-src](https://github.com/pechemann/jec-glasscat-poc-src) repository contains the source code for the current GlassCat release.
 
 Current version is a very advanced release of Glasscat which demonstrates the feasibility and the viability of the JEC technologies. Release Candidate versions will be similar to the current implementation, except for the dependencies architecture.
 
