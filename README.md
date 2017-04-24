@@ -129,7 +129,7 @@ JUTA is based on the [TypeScript decorators](https://www.typescriptlang.org/docs
 
 The following projects, available at [github.com/pechemann](https://github.com/pechemann), are either parts of the JEC specifications, or their default implementations:
 - **[JEC](https://github.com/pechemann/JEC)**: solely contains presentation documents related to the JEC project.
-- **[jec-glasscat-poc-src](https://github.com/pechemann/glasscat-poc-src)**: contains all functional initial sources of the GlassCat server and the default JEC implementations. This project demonstrates the Proof Of Concept of the JEC technologies. It is an early preview of the GlassCat Application Server which does not respect the [final architecture proposal](#final-architecture). Thus, this repository will be deleted after the release of GlassCat RC-* versions.
+- **[jec-glasscat-poc-src](https://github.com/pechemann/jec-glasscat-poc-src)**: contains all functional initial sources of the GlassCat server and the default JEC implementations. This project demonstrates the Proof Of Concept of the JEC technologies. It is an early preview of the GlassCat Application Server which does not respect the [final architecture proposal](#final-architecture). Thus, this repository will be deleted after the release of GlassCat RC-* versions.
 - **[jec-spec](https://github.com/pechemann/jec-spec)**: contains the JEC specifications.
 - **[jec-jars-spec](https://github.com/pechemann/jec-jars-spec)**: contains the JavaScript API for RESTful Services *(JARS)*  specifications.
 - **[jec-jdi-spec](https://github.com/pechemann/jec-jdi-spec)**: contains specification of the JavaScript Dependency Injection *(JDI)* for JEC applications. 
