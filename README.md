@@ -99,7 +99,7 @@ The JARS specification defines a set of Java APIs for the development of Web ser
 
  A Sandcat application is packaged as a Web application in a [EJP, or EJM](#entreprise-javascript-projects-ejp), file. Using JARS a Web resource is implemented as a resource class and requests are handled by resource methods. It uses specific [TypeScript decorators](https://www.typescriptlang.org/docs/handbook/decorators.html) (such as `@ResourcePath`, `@GET`, etc.) to describe resources.
 
- > By using the **JEC Descriptor Connectors API** *(JEC-DCA)*, developers can create their own frameworks to implement the JARS specification.
+ > By using the **JEC Connector API for Descriptors** *(JEC-CAD)*, developers can create their own frameworks to implement the JARS specification.
 
 ## Bobcat: Dependency Injection and IoC Framework
 
@@ -107,7 +107,7 @@ The JavaScript Dependency Injection *(JDI, pronounce JEDI)* specification define
 
 Bobcat is the default GlassCat implementation for the JDI specification. JDI implementations are built on the top of the [TypeScript decorators](https://www.typescriptlang.org/docs/handbook/decorators.html) API. Decorators (`@Inject`, `@Injectable`, `@Qualifier`, etc.) make DI and IoC easier to use and clearer to read and maintain.
 
- > By using JEC-DCA, developers can create their own frameworks to implement the JDI specification.
+ > By using JEC-CAD, developers can create their own frameworks to implement the JDI specification.
 
 ## Wildcat: EJP Archetypes Manager
 
@@ -135,7 +135,7 @@ The following projects, available at [github.com/pechemann](https://github.com/p
 - **[jec-jdi-spec](https://github.com/pechemann/jec-jdi-spec)**: contains specification of the JavaScript Dependency Injection *(JDI)* for JEC applications. 
 - **[jec-juta-spec](https://github.com/pechemann/jec-juta-spec)**: contains the JavaScript Unit Testing API *(JUTA)* specifications.
 - **[jec-commons](https://github.com/pechemann/jec-commons)**: contains common dependencies shared by JEC implementations, including the jslet API.
-- **[jec-dca](https://github.com/pechemann/jec-dca)**: contains JEC Descriptor Connectors API dependencies.
+- **[jec-cad](https://github.com/pechemann/jec-cad)**: contains JEC Connectors API for Descriptors dependencies.
 - **[jec-jars](https://github.com/pechemann/jec-jars)**: contains dependencies Jshared by JARS implementations.
 - **[jec-jdi](https://github.com/pechemann/jec-jdi)**: contains dependencies shared by JDI implementations.
 - **[jec-juta](https://github.com/pechemann/jec-juta)**: contains dependencies shared by JUTA implementations.
