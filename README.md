@@ -134,8 +134,10 @@ The following projects, available at [github.com/pechemann](https://github.com/p
 - **[jec-jars-spec](https://github.com/pechemann/jec-jars-spec)**: contains the JavaScript API for RESTful Services *(JARS)*  specifications.
 - **[jec-jdi-spec](https://github.com/pechemann/jec-jdi-spec)**: contains specification of the JavaScript Dependency Injection *(JDI)* for JEC applications. 
 - **[jec-juta-spec](https://github.com/pechemann/jec-juta-spec)**: contains the JavaScript Unit Testing API *(JUTA)* specifications.
-- **[jec-commons](https://github.com/pechemann/jec-commons)**: contains common dependencies shared by JEC implementations, including the jslet API.
-- **[jec-jars](https://github.com/pechemann/jec-jars)**: contains dependencies Jshared by JARS implementations.
+- **[jec-commons](https://github.com/pechemann/jec-commons)**: contains common dependencies shared by JEC implementations.
+- **[jec-jslet](https://github.com/pechemann/jec-jslet)**: contains jslet abstraction layer dependencies.
+- **[jec-security](https://github.com/pechemann/jec-security)**: contains JEC security layer dependencies.
+- **[jec-jars](https://github.com/pechemann/jec-jars)**: contains dependencies shared by JARS implementations.
 - **[jec-jdi](https://github.com/pechemann/jec-jdi)**: contains dependencies shared by JDI implementations.
 - **[jec-juta](https://github.com/pechemann/jec-juta)**: contains dependencies shared by JUTA implementations.
 - **[jec-glasscat](https://github.com/pechemann/jec-glasscat)**: the official GlassCat Application Server repository.
