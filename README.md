@@ -89,8 +89,8 @@ import {ResourcePath} from "../../../../server/com/onsoft/sandcat/annotations/Re
 will be replaced by these ones:
 
 ```javascript
-import {HttpRequest} from "jec-commons/jslet/http/HttpRequest";
-import {ResourcePath} from "jec-jars/ResourcePath";
+import {HttpRequest} from "jec-commons";
+import {ResourcePath} from "jec-jars";
 ```
 
 ## Sandcat: RESTful Services For JavaScript Applications
