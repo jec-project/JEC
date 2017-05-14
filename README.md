@@ -2,6 +2,8 @@
 
 JavaScript Entreprise Container *(JEC)* is the standard in modern JavaScript enterprise software.
 
+[![][jec-logo]][jec-url]
+
 JEC intends to provide a well defined and easy-to-use infrastructure to JavaScript developers, with the following advantages:
 - a standardized development environment
 - an efficient alternative to Java EE
@@ -171,3 +173,6 @@ To hire Pascal, please contact him from his [linkedin profile](https://www.linke
 This work and the content of the [`assets`](assets) package are licensed under Apache 2.0. Full license text is available in [COPYING](COPYING).
 
 The content of the [`presentations`](presentations)  package is licensed under the *French copyright terms*, defined in the first book of the [Code of intellectual property](https://www.legifrance.gouv.fr/affichCode.do?cidTexte=LEGITEXT000006069414&dateTexte=20170409).
+
+[jec-url]: https://github.com/pechemann/JEC
+[jec-logo]: https://raw.githubusercontent.com/pechemann/JEC/master/assets/jec-logos/jec-logo.png
