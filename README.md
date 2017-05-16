@@ -137,8 +137,7 @@ The following projects, available at [github.com/pechemann](https://github.com/p
 - **[jec-jdi-spec](https://github.com/pechemann/jec-jdi-spec)**: contains specification of the JavaScript Dependency Injection *(JDI)* for JEC applications. 
 - **[jec-juta-spec](https://github.com/pechemann/jec-juta-spec)**: contains the JavaScript Unit Testing API *(JUTA)* specifications.
 - **[jec-commons](https://github.com/pechemann/jec-commons)**: contains common dependencies shared by JEC implementations.
-- **[jec-jslet](https://github.com/pechemann/jec-jslet)**: contains jslet abstraction layer dependencies.
-- **[jec-security](https://github.com/pechemann/jec-security)**: contains JEC security layer dependencies.
+- **[jec-jslet](https://github.com/pechemann/jec-exchange)**: contains jslet and security layers dependencies.
 - **[jec-jars](https://github.com/pechemann/jec-jars)**: contains dependencies shared by JARS implementations.
 - **[jec-jdi](https://github.com/pechemann/jec-jdi)**: contains dependencies shared by JDI implementations.
 - **[jec-juta](https://github.com/pechemann/jec-juta)**: contains dependencies shared by JUTA implementations.
@@ -167,7 +166,7 @@ Pascal has created and developed, among other things, the following frameworks a
 - [ONYX Online Operating System](https://www.youtube.com/user/SpasOS1): an Online Operating System which brings together, tools for processing data, personal information and all kind of media
 - [Hummingbird MVC Framework](http://wooz.io): a Free and Open Source MVC Framework, based on IoC and DI to deal for you with the MVC pattern architecture over the Flash&reg; Platform
 
-To hire Pascal, please contact him from his [linkedin profile](https://www.linkedin.com/in/echemann/).
+You can contact Pascal from his [linkedin profile](https://www.linkedin.com/in/echemann/).
 
 ## License
 This work and the content of the [`assets`](assets) package are licensed under Apache 2.0. Full license text is available in [COPYING](COPYING).
