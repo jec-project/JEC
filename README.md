@@ -27,6 +27,7 @@ Short presentations of JEC technologies are available from the [JEC/presentation
   * [Why an Archetypes Manager?](#why-an-archetypes-manager)
 * [JavaScript Unit Testing API](#javascript-unit-testing-api)
 * [JEC Projects Repositories](#jec-projects-repositories)
+* [JEC Samples Repositories](#jec-samples-repositories)
 * [Roadmap](#roadmap)
 * [License](#license)
 
@@ -137,6 +138,7 @@ The following projects, available at [github.com/pechemann](https://github.com/p
 - **[jec-jdi-spec](https://github.com/pechemann/jec-jdi-spec)**: contains specification of the JavaScript Dependency Injection *(JDI)* for JEC applications. 
 - **[jec-juta-spec](https://github.com/pechemann/jec-juta-spec)**: contains the JavaScript Unit Testing API *(JUTA)* specifications.
 - **[jec-commons](https://github.com/pechemann/jec-commons)**: contains common dependencies shared by JEC implementations.
+- **[jec-commons-node](https://github.com/pechemann/jec-commons)**: contains common dependencies shared by JEC implementations built on top of Node.js.
 - **[jec-exchange](https://github.com/pechemann/jec-exchange)**: contains jslet and security layers dependencies.
 - **[jec-jars](https://github.com/pechemann/jec-jars)**: contains dependencies shared by JARS implementations.
 - **[jec-jdi](https://github.com/pechemann/jec-jdi)**: contains dependencies shared by JDI implementations.
@@ -144,11 +146,17 @@ The following projects, available at [github.com/pechemann](https://github.com/p
 - **[jec-glasscat](https://github.com/pechemann/jec-glasscat)**: the official GlassCat Application Server repository.
 - **[jec-glasscat-core](https://github.com/pechemann/jec-glasscat-core)**: contains the GlassCat Application Server core components.
 - **[jec-glasscat-admin](https://github.com/pechemann/jec-glasscat-admin)**: the GlassCat Administration Console repository.
-- **[jec-glasscat-samples](https://github.com/pechemann/jec-glasscat-samples)**: contains GlassCat sample applications.
 - **[jec-sandcat](https://github.com/pechemann/jec-sandcat)**: the official Sandcat repository; Sandcat is the default implementation of the JARS specification.
 - **[jec-bobcat](https://github.com/pechemann/jec-bobcat)**: the official Bobcat repository. Bobcat is the default implementation of the JDI specification.
 - **[jec-wildcat](https://github.com/pechemann/jec-wildcat)**: the official Wildcat repository; Wildcat is the default archetypes manager for the GlassCat Application Server.
 - **[jec-tiger](https://github.com/pechemann/jec-tiger)**: the GlassCat JUTA implementation, based upon the [Mocha JavaScript test framework](https://mochajs.org/).
+
+## JEC Samples Repositories
+
+The following projects, available at [github.com/pechemann](https://github.com/pechemann), provide developers fully functional examples based upon the JEC specifications:
+
+- **[jec-sample-tiger](https://github.com/pechemann/jec-sample-tiger)**: a simple project that shows how to write unit tests by using the [JUTA specification](https://github.com/pechemann/jec-juta) and the [Tiger framework](https://github.com/pechemann/jec-tiger).
+- **[jec-sample-glasscat](https://github.com/pechemann/jec-sample-glasscat)**: contains [GlassCat](https://github.com/pechemann/jec-glasscat) sample applications.
 
 ## Roadmap
 
