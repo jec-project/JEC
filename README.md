@@ -160,7 +160,24 @@ The following projects, available at [github.com/pechemann](https://github.com/p
 
 ## Roadmap
 
-*Not available yet.*
+### JEC Projects Progress
+
+| Project            | Progress                                         | Comments  |
+| ------------------ | :----------------------------------------------: | :-------: |
+| jec-commons        | <progress value="100" max="100">100 %</progress> | --- |
+| jec-commons-node   | <progress value="100" max="100">100 %</progress> | --- |
+| jec-exchange       | <progress value="100" max="100">100 %</progress> | --- |
+| jec-jars           | <progress value="100" max="100">100 %</progress> | --- |
+| jec-jdi            | <progress value="0" max="100">0 %</progress>     | Not scheduled yet |
+| jec-juta           | <progress value="100" max="100">100 %</progress> | --- |
+| jec-glasscat       | <progress value="0" max="100">0 %</progress>     | Still under POC project |
+| jec-glasscat-core  | <progress value="1" max="100">1 %</progress>     | In progress |
+| jec-glasscat-cmd   | <progress value="0" max="100">0 %</progress>     | Still under POC project |
+| jec-glasscat-cli   | <progress value="0" max="100">0 %</progress>     | Still under POC project |
+| jec-sandcat        | <progress value="0" max="100">0 %</progress>     | Still under POC project |
+| jec-bobcat         | <progress value="0" max="100">0 %</progress>     | Not scheduled yet |
+| jec-wildcat        | <progress value="100" max="100">100 %</progress> | --- |
+| jec-tiger          | <progress value="100" max="100">100 %</progress> | --- |
 
 ## Author
 
