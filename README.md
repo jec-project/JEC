@@ -15,6 +15,7 @@ Short presentations of JEC technologies are available from the [JEC/presentation
 **The current repository only contains information about the different JEC technologies available at [github.com/pechemann](https://github.com/pechemann).**
 
 ## Table of Contents
+* [Partners / Sponsors List](#partners-sponsors-list)
 * [GlassCat Application Server](#glasscat-application-server)
   * [GlassCat In Action](#glasscat-in-action)
   * [Jslet Technology](#jslet-technology)
@@ -29,7 +30,14 @@ Short presentations of JEC technologies are available from the [JEC/presentation
 * [JEC Projects Repositories](#jec-projects-repositories)
 * [JEC Samples Repositories](#jec-samples-repositories)
 * [Roadmap](#roadmap)
+  * [JEC Projects Progress](#jec-projects-progress)
 * [License](#license)
+
+## Partners / Sponsors List
+
+The JEC project extends a special thanks to the companies who wish to support us in a recurring way.
+
+[More to come...]
 
 ## GlassCat Application Server
 <p align="center">
@@ -162,22 +170,22 @@ The following projects, available at [github.com/pechemann](https://github.com/p
 
 ### JEC Projects Progress
 
-| Project            | Progress                                         | Comments  |
-| ------------------ | :----------------------------------------------: | :-------: |
-| jec-commons        | <progress value="100" max="100">100 %</progress> | --- |
-| jec-commons-node   | <progress value="100" max="100">100 %</progress> | --- |
-| jec-exchange       | <progress value="100" max="100">100 %</progress> | --- |
-| jec-jars           | <progress value="100" max="100">100 %</progress> | --- |
-| jec-jdi            | <progress value="0" max="100">0 %</progress>     | Not scheduled yet |
-| jec-juta           | <progress value="100" max="100">100 %</progress> | --- |
-| jec-glasscat       | <progress value="0" max="100">0 %</progress>     | Still under POC project |
-| jec-glasscat-core  | <progress value="1" max="100">1 %</progress>     | In progress |
-| jec-glasscat-cmd   | <progress value="0" max="100">0 %</progress>     | Still under POC project |
-| jec-glasscat-cli   | <progress value="0" max="100">0 %</progress>     | Still under POC project |
-| jec-sandcat        | <progress value="0" max="100">0 %</progress>     | Still under POC project |
-| jec-bobcat         | <progress value="0" max="100">0 %</progress>     | Not scheduled yet |
-| jec-wildcat        | <progress value="100" max="100">100 %</progress> | --- |
-| jec-tiger          | <progress value="100" max="100">100 %</progress> | --- |
+| Project            | Progress                                  | Comments  |
+| ------------------ | :---------------------------------------: | :-------: |
+| jec-commons        | ![Progress](http://progressed.io/bar/100) | --- |
+| jec-commons-node   | ![Progress](http://progressed.io/bar/100) | --- |
+| jec-exchange       | ![Progress](http://progressed.io/bar/100) | --- |
+| jec-jars           | ![Progress](http://progressed.io/bar/100) | --- |
+| jec-jdi            | ![Progress](http://progressed.io/bar/0)   | Not scheduled yet |
+| jec-juta           | ![Progress](http://progressed.io/bar/100) | --- |
+| jec-glasscat       | ![Progress](http://progressed.io/bar/0)   | Still under POC project |
+| jec-glasscat-core  | ![Progress](http://progressed.io/bar/3)   | In progress |
+| jec-glasscat-cmd   | ![Progress](http://progressed.io/bar/0)   | Still under POC project |
+| jec-glasscat-cli   | ![Progress](http://progressed.io/bar/0)   | Still under POC project |
+| jec-sandcat        | ![Progress](http://progressed.io/bar/0)   | Still under POC project |
+| jec-bobcat         | ![Progress](http://progressed.io/bar/0)   | Not scheduled yet |
+| jec-wildcat        | ![Progress](http://progressed.io/bar/100) | --- |
+| jec-tiger          | ![Progress](http://progressed.io/bar/100) | --- |
 
 ## Author
 
