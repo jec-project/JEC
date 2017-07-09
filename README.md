@@ -15,7 +15,7 @@ Short presentations of JEC technologies are available from the [JEC/presentation
 **The current repository only contains information about the different JEC technologies available at [github.com/pechemann](https://github.com/pechemann).**
 
 ## Table of Contents
-* [Partners / Sponsors List](#partners-sponsors-list)
+* [Partners / Sponsors List](#partners--sponsors-list)
 * [GlassCat Application Server](#glasscat-application-server)
   * [GlassCat In Action](#glasscat-in-action)
   * [Jslet Technology](#jslet-technology)
@@ -36,6 +36,17 @@ Short presentations of JEC technologies are available from the [JEC/presentation
 ## Partners / Sponsors List
 
 The JEC project extends a special thanks to the companies who wish to support us in a recurring way.
+
+<table>
+  <tbody>
+    <tr valign="top">
+      <td width="25%"></td>
+      <td width="25%"></td>
+      <td width="25%"></td>
+      <td width="25%"></td>
+    </tr>
+  </tbody>
+</table>
 
 [More to come...]
 
