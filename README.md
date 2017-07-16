@@ -29,8 +29,6 @@ Short presentations of JEC technologies are available from the [JEC/presentation
 * [JavaScript Unit Testing API](#javascript-unit-testing-api)
 * [JEC Projects Repositories](#jec-projects-repositories)
 * [JEC Samples Repositories](#jec-samples-repositories)
-* [Roadmap](#roadmap)
-  * [JEC Projects Progress](#jec-projects-progress)
 * [License](#license)
 
 ## Partners / Sponsors List
@@ -164,6 +162,7 @@ The following projects, available at [github.com/pechemann](https://github.com/p
 - **[jec-juta](https://github.com/pechemann/jec-juta)**: contains dependencies shared by JUTA implementations.
 - **[jec-glasscat](https://github.com/pechemann/jec-glasscat)**: the official GlassCat Application Server repository.
 - **[jec-glasscat-core](https://github.com/pechemann/jec-glasscat-core)**: contains the GlassCat Application Server core components.
+- **[jec-glasscat-cli](https://github.com/pechemann/jec-glasscat-cli)**: the GlassCat command-line user interface.
 - **[jec-glasscat-admin](https://github.com/pechemann/jec-glasscat-admin)**: the GlassCat Administration Console repository.
 - **[jec-sandcat](https://github.com/pechemann/jec-sandcat)**: the official Sandcat repository; Sandcat is the default implementation of the JARS specification.
 - **[jec-bobcat](https://github.com/pechemann/jec-bobcat)**: the official Bobcat repository. Bobcat is the default implementation of the JDI specification.
@@ -176,27 +175,6 @@ The following projects, available at [github.com/pechemann](https://github.com/p
 
 - **[jec-sample-tiger](https://github.com/pechemann/jec-sample-tiger)**: a simple project that shows how to write unit tests by using the [JUTA specification](https://github.com/pechemann/jec-juta) and the [Tiger framework](https://github.com/pechemann/jec-tiger).
 - **[jec-sample-glasscat](https://github.com/pechemann/jec-sample-glasscat)**: contains [GlassCat](https://github.com/pechemann/jec-glasscat) sample applications.
-
-## Roadmap
-
-### JEC Projects Progress
-
-| Project            | Progress                                  | Comments  |
-| ------------------ | :---------------------------------------: | :-------: |
-| jec-commons        | ![Progress](http://progressed.io/bar/100) | --- |
-| jec-commons-node   | ![Progress](http://progressed.io/bar/100) | --- |
-| jec-exchange       | ![Progress](http://progressed.io/bar/100) | --- |
-| jec-jars           | ![Progress](http://progressed.io/bar/100) | --- |
-| jec-jdi            | ![Progress](http://progressed.io/bar/0)   | Not scheduled yet |
-| jec-juta           | ![Progress](http://progressed.io/bar/100) | --- |
-| jec-glasscat       | ![Progress](http://progressed.io/bar/0)   | Still under POC project |
-| jec-glasscat-core  | ![Progress](http://progressed.io/bar/3)   | In progress |
-| jec-glasscat-cmd   | ![Progress](http://progressed.io/bar/0)   | Still under POC project |
-| jec-glasscat-cli   | ![Progress](http://progressed.io/bar/0)   | Still under POC project |
-| jec-sandcat        | ![Progress](http://progressed.io/bar/0)   | Still under POC project |
-| jec-bobcat         | ![Progress](http://progressed.io/bar/0)   | Not scheduled yet |
-| jec-wildcat        | ![Progress](http://progressed.io/bar/100) | --- |
-| jec-tiger          | ![Progress](http://progressed.io/bar/100) | --- |
 
 ## Author
 
