@@ -15,7 +15,6 @@ Short presentations of JEC technologies are available from the [JEC/presentation
 **The current repository only contains information about the different JEC technologies available at [github.com/pechemann](https://github.com/pechemann).**
 
 ## Table of Contents
-* [Partners / Sponsors List](#partners--sponsors-list)
 * [GlassCat Application Server](#glasscat-application-server)
   * [GlassCat In Action](#glasscat-in-action)
   * [Jslet Technology](#jslet-technology)
@@ -27,26 +26,7 @@ Short presentations of JEC technologies are available from the [JEC/presentation
 * [Wildcat: EJP Archetypes Manager](#wildcat-ejp-archetypes-manager)
   * [Why an Archetypes Manager?](#why-an-archetypes-manager)
 * [JavaScript Unit Testing API](#javascript-unit-testing-api)
-* [JEC Projects Repositories](#jec-projects-repositories)
-* [JEC Samples Repositories](#jec-samples-repositories)
 * [License](#license)
-
-## Partners / Sponsors List
-
-The JEC project extends a special thanks to the companies who wish to support us in a recurring way.
-
-<table>
-  <tbody>
-    <tr valign="top">
-      <td width="25%"></td>
-      <td width="25%"></td>
-      <td width="25%"></td>
-      <td width="25%"></td>
-    </tr>
-  </tbody>
-</table>
-
-[More to come...]
 
 ## GlassCat Application Server
 <p align="center">
@@ -99,20 +79,6 @@ At the moment, all JEC default implementation projects are contained in this rep
 
 Final architecture will provide developers the ability to develop their own modules and implementations to extend JEC.
 
-Moreover, import statements will be more concise and well-defined. For example, the following import statements :
-
-```javascript
-import {HttpRequest} from "../../../../server/com/jec/commons/jslet/http/HttpRequest";
-import {ResourcePath} from "../../../../server/com/onsoft/sandcat/annotations/ResourcePath";
-```
-
-will be replaced by these ones:
-
-```javascript
-import {HttpRequest} from "jec-commons";
-import {ResourcePath} from "jec-jars";
-```
-
 ## Sandcat: RESTful Services For JavaScript Applications
 
 The JARS specification defines a set of Java APIs for the development of Web services built according to the Representational State Transfer (REST) architectural style. Sandcat is the default GlassCat implementation for the JARS specification.
@@ -144,37 +110,6 @@ Anyway, JEC projects archetypes can be deployed from your GitHub repositories.
 The JavaScript Unit Testing API *(JUTA)* is an experimental project which aims to provide developers a superset API to simplify JEC projects unit tests.
 
 JUTA is based on the [TypeScript decorators](https://www.typescriptlang.org/docs/handbook/decorators.html) decorators API and is not not implementation dependent. It will be the base for all JEC projects tests, including GlassCat and the JEC default implementations.
-
-## JEC Projects Repositories
-
-The following projects, available at [github.com/pechemann](https://github.com/pechemann), are either parts of the JEC specifications, or their default implementations:
-- **[JEC](https://github.com/pechemann/JEC)**: solely contains presentation documents related to the JEC project.
-- **[jec-glasscat-poc-src](https://github.com/pechemann/jec-glasscat-poc-src)**: contains all functional initial sources of the GlassCat server and the default JEC implementations. This project demonstrates the Proof Of Concept of the JEC technologies. It is an early preview of the GlassCat Application Server which does not respect the [final architecture proposal](#final-architecture). Thus, this repository will be deleted after the release of GlassCat RC-* versions.
-- **[jec-spec](https://github.com/pechemann/jec-spec)**: contains the JEC specifications.
-- **[jec-jars-spec](https://github.com/pechemann/jec-jars-spec)**: contains the JavaScript API for RESTful Services *(JARS)*  specifications.
-- **[jec-jdi-spec](https://github.com/pechemann/jec-jdi-spec)**: contains specification of the JavaScript Dependency Injection *(JDI)* for JEC applications. 
-- **[jec-juta-spec](https://github.com/pechemann/jec-juta-spec)**: contains the JavaScript Unit Testing API *(JUTA)* specifications.
-- **[jec-commons](https://github.com/pechemann/jec-commons)**: contains common dependencies shared by JEC implementations.
-- **[jec-commons-node](https://github.com/pechemann/jec-commons)**: contains common dependencies shared by JEC implementations built on top of Node.js.
-- **[jec-exchange](https://github.com/pechemann/jec-exchange)**: contains jslet and security layers dependencies.
-- **[jec-jars](https://github.com/pechemann/jec-jars)**: contains dependencies shared by JARS implementations.
-- **[jec-jdi](https://github.com/pechemann/jec-jdi)**: contains dependencies shared by JDI implementations.
-- **[jec-juta](https://github.com/pechemann/jec-juta)**: contains dependencies shared by JUTA implementations.
-- **[jec-glasscat](https://github.com/pechemann/jec-glasscat)**: the official GlassCat Application Server repository.
-- **[jec-glasscat-core](https://github.com/pechemann/jec-glasscat-core)**: contains the GlassCat Application Server core components.
-- **[jec-glasscat-cli](https://github.com/pechemann/jec-glasscat-cli)**: the GlassCat command-line user interface.
-- **[jec-glasscat-admin](https://github.com/pechemann/jec-glasscat-admin)**: the GlassCat Administration Console repository.
-- **[jec-sandcat](https://github.com/pechemann/jec-sandcat)**: the official Sandcat repository; Sandcat is the default implementation of the JARS specification.
-- **[jec-bobcat](https://github.com/pechemann/jec-bobcat)**: the official Bobcat repository. Bobcat is the default implementation of the JDI specification.
-- **[jec-wildcat](https://github.com/pechemann/jec-wildcat)**: the official Wildcat repository; Wildcat is the default archetypes manager for the GlassCat Application Server.
-- **[jec-tiger](https://github.com/pechemann/jec-tiger)**: the GlassCat JUTA implementation, based upon the [Mocha JavaScript test framework](https://mochajs.org/).
-
-## JEC Samples Repositories
-
-The following projects, available at [github.com/pechemann](https://github.com/pechemann), provide developers fully functional examples based upon the JEC specifications:
-
-- **[jec-sample-tiger](https://github.com/pechemann/jec-sample-tiger)**: a simple project that shows how to write unit tests by using the [JUTA specification](https://github.com/pechemann/jec-juta) and the [Tiger framework](https://github.com/pechemann/jec-tiger).
-- **[jec-sample-glasscat](https://github.com/pechemann/jec-sample-glasscat)**: contains [GlassCat](https://github.com/pechemann/jec-glasscat) sample applications.
 
 ## Author
 
