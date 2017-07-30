@@ -13,7 +13,8 @@ JEC provides an easy-to-use infrastructure to TypeScript and JavaScript develope
 
 ## Getting Started
 
-For a better understanding of the JEC ecosystem visit our WIKI on GitHub: [>> JavaScript Entreprise Container (JEC) Projects](https://github.com/pechemann/JEC/wiki).
+For a better understanding of the JEC ecosystem visit our WIKI on GitHub:
+[>> JavaScript Entreprise Container (JEC) Projects](https://github.com/pechemann/JEC/wiki).
 
 ## Partners and Sponsors List
 
