@@ -28,9 +28,15 @@ The JEC project extends a special thanks to the companies who wish to support us
           <img src="https://raw.githubusercontent.com/pechemann/JEC/master/sponsors/abylsen-logo.png"/>
         </a>
       </td>
-      <td width="25%"  align="middle"></td>
-      <td width="25%"  align="middle"></td>
-      <td width="25%"  align="middle"></td>
+      <td width="25%"  align="middle">
+        <img src="https://raw.githubusercontent.com/pechemann/JEC/master/sponsors/empty-logo.png"/>
+      </td>
+      <td width="25%"  align="middle">
+        <img src="https://raw.githubusercontent.com/pechemann/JEC/master/sponsors/empty-logo.png"/>
+      </td>
+      <td width="25%"  align="middle">
+        <img src="https://raw.githubusercontent.com/pechemann/JEC/master/sponsors/empty-logo.png"/>
+      </td>
     </tr>
   </tbody>
 </table>
