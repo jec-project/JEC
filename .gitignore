@@ -1,6 +1,4 @@
 # Ignore presentations source files
-/presentations/assets
-/presentations/old
 *.odp
 
 temp.md
