@@ -21,7 +21,7 @@ For a better understanding of the JEC ecosystem visit our WIKI on GitHub:
 
 The JEC project extends a special thanks to the companies who wish to support us in a recurring way.
 
-<table>
+<!--<table>
   <tbody>
     <tr valign="top">
       <td width="25%" align="middle">
@@ -40,7 +40,7 @@ The JEC project extends a special thanks to the companies who wish to support us
       </td>
     </tr>
   </tbody>
-</table>
+</table>-->
 
 For more information please the visit the [Partners and Sponsors List](https://github.com/pechemann/JEC/wiki/Partners-and-Sponsors-List) page.
 
