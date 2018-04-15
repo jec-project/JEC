@@ -1,13 +1,236 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>JEC Project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="website/styles/jec-website.css" />
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>JEC - JavaScript Entreprise Container</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="./website/styles/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="./website/styles/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
+
 <body>
-    <h1>JEC Project</h1>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./website/assets/jec-company-bg.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="./website/assets/jec-logo.svg"
+								 alt="JEC - JavaScript Entreprise Container"
+								 width="150" height="70">
+							<img class="logo-alt" src="website/assets/jec-logo-alt.svg"
+								 alt="JEC - JavaScript Entreprise Container"
+								 width="150" height="70">
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
+
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li>
+						<a href="https://pechemann.github.io/JEC">
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+								 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+								 stroke-linejoin="round" class="mr-1 feather feather-github">
+									 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+							</svg>
+							Github
+						</a>
+					</li>
+				</ul>
+				<!-- /Main navigation -->
+
+			</div>
+		</nav>
+		<!-- /Nav -->
+
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
+
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">JEC</h1>
+							<h3 class="white-text">JavaScript Entreprise Container</h3>
+							<p class="white-text">The Node.js alternative ot JEE and Spring Boot</p>
+							<button class="white-btn">Get Started!</button>
+							<button class="main-btn">Learn more</button>
+						</div>
+					</div>
+					<!-- /home content -->
+
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+	<!-- About -->
+	<div id="about" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Welcome to Website</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-cogs"></i>
+						<h3>Fully Customizible</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-magic"></i>
+						<h3>Awesome Features</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-mobile"></i>
+						<h3>Fully Responsive</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+				<!-- /about -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /About -->
+
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer logo -->
+					<div class="footer-logo">
+						<a href="index.html">
+							<img src="./website/assets/jec-logo.svg"
+								 alt="JEC - JavaScript Entreprise Container"
+								 width="280" height="80">
+						</a>
+					</div>
+					<!-- /footer logo -->
+
+					<!-- footer follow -->
+					<ul class="footer-follow">
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+					<!-- /footer follow -->
+
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+						<p>Copyright © 2018, Pascal ECHEMANN. All Rights Reserved.</p>
+					</div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./website/js/main.js"></script>
+
 </body>
+
 </html>
