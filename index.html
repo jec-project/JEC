@@ -64,8 +64,24 @@
 
 				<!--  Main navigation  -->
 				<ul class="main-nav nav navbar-nav navbar-right">
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
+					<li>
+						<a href="#home">
+							<svg xmlns="http://www.w3.org/2000/svg" width="0" height="24" viewBox="0 0 0 24"></svg>
+							   Home
+						</a>
+					</li>
+					<li>
+						<a href="#about">
+							<svg xmlns="http://www.w3.org/2000/svg" width="0" height="24" viewBox="0 0 0 24"></svg>
+							About
+						</a>
+					</li>
+					<li>
+						<a href="#get-started">
+							<svg xmlns="http://www.w3.org/2000/svg" width="0" height="24" viewBox="0 0 0 24"></svg>
+							Get Started!
+						</a>
+					</li>
 					<li>
 						<a href="https://pechemann.github.io/JEC">
 							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -94,8 +110,14 @@
 							<h1 class="white-text">JEC</h1>
 							<h3 class="white-text">JavaScript Entreprise Container</h3>
 							<p class="white-text">The Node.js alternative ot JEE and Spring Boot</p>
-							<button class="white-btn">Get Started!</button>
-							<button class="main-btn">Learn more</button>
+							<button class="white-btn" 
+									onclick="location.href='#get-started'">
+									Get Started!
+							</button>
+							<button class="main-btn" 
+									onclick="location.href='https://github.com/pechemann/JEC/wiki/JEC-Publications'">
+									Learn more
+							</button>
 						</div>
 					</div>
 					<!-- /home content -->
@@ -119,26 +141,15 @@
 
 				<!-- Section header -->
 				<div class="section-header text-center">
-					<h2 class="title">Welcome to Website</h2>
+					<h2 class="title">Welcome to JEC Website</h2>
 				</div>
 				<!-- /Section header -->
 
 				<!-- about -->
 				<div class="col-md-4">
 					<div class="about">
-						<i class="fa fa-cogs"></i>
-						<h3>Fully Customizible</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-						<a href="#">Read more</a>
-					</div>
-				</div>
-				<!-- /about -->
-
-				<!-- about -->
-				<div class="col-md-4">
-					<div class="about">
 						<i class="fa fa-magic"></i>
-						<h3>Awesome Features</h3>
+						<h3>Easy-to-use</h3>
 						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
 						<a href="#">Read more</a>
 					</div>
@@ -148,8 +159,19 @@
 				<!-- about -->
 				<div class="col-md-4">
 					<div class="about">
-						<i class="fa fa-mobile"></i>
-						<h3>Fully Responsive</h3>
+						<i class="fa fa-space-shuttle"></i>
+						<h3>Super Fast</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-external-link"></i>
+						<h3>Portable</h3>
 						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
 						<a href="#">Read more</a>
 					</div>
@@ -164,6 +186,53 @@
 
 	</div>
 	<!-- /About -->
+
+	<!-- Get Started! -->
+	<div id="get-started" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Get Started!</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- about -->
+				<div class="col-md-12">
+					<div class="about">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item"
+								src="https://www.youtube.com/embed/geESkKZtYqo" 
+								allowfullscreen>
+							</iframe>
+						</div>
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-12">
+					<div class="about">
+						<h3>Install Intructions</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
+				</div>
+				<!-- /about -->
+	
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Get Started! -->
 
 	<!-- Footer -->
 	<footer id="footer" class="sm-padding bg-dark">
@@ -188,8 +257,8 @@
 
 					<!-- footer follow -->
 					<ul class="footer-follow">
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+						<li><a href="https://twitter.com/JEC_Project"><i class="fa fa-twitter fa-2x"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UCA2Z3RDl6NET9qRH-HbNktQ"><i class="fa fa-youtube fa-2x"></i></a></li>
 					</ul>
 					<!-- /footer follow -->
 

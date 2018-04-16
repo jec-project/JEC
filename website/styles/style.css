@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 1em;
     color: #111111;
 }
 
@@ -146,17 +146,20 @@ ul, ol {
 .home-content h1 {
     font-size: 6em;
     margin-bottom: 1em;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
 }
 
 .home-content h3 {
     font-size: 2em;
     margin-bottom: 0.3em;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
 }
 
 .home-content p {
     font-size: 1.35em;
     margin-bottom: 4em;
     font-style: italic;
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.7);
 }
 
 
@@ -246,6 +249,7 @@ ul, ol {
         display: none !important;
     }
     #nav.nav-transparent .navbar-brand .logo {
+        max-height: 2.7em;
         display: block !important;
     }
 }
@@ -468,13 +472,13 @@ header {
 
 .header-wrapper h2 {
     display: inline-block;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .header-wrapper .breadcrumb {
     float: right;
     background: transparent;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .header-wrapper .breadcrumb .breadcrumb-item.active {
@@ -501,6 +505,10 @@ header {
     font-size: 36px;
     color: #0a50ff;
     margin-bottom: 20px;
+}
+
+.about a {
+    color: #ba00ff;
 }
 
 .about:after {
@@ -543,10 +551,6 @@ header {
     display: inline-block;
 }
 
-.footer-logo>a>svg {
-    max-height: 6em;
-}
-
 .footer-follow {
     text-align: center;
     margin-bottom: 2em;
@@ -563,6 +567,7 @@ header {
   width: 4em;
   height: 4em;
   line-height: 4em;
+  padding-top: 0.5em;
   text-align: center;
   border-radius: 0.2em;
   background-color: #ba00ff;
@@ -590,77 +595,20 @@ header {
 @media only screen and (max-width: 991px) {}
 
 @media only screen and (max-width: 767px) {
-  .section-header h2.title {
-  		font-size:31.5px;
+    .section-header h2.title {
+  		font-size:3em;
 	}
 
-  .main-btn , .default-btn , .outline-btn , .white-btn  {
-  		padding: 8px 22px;
-  		font-size:14px;
+    .main-btn , .default-btn , .outline-btn , .white-btn  {
+  		padding: 0.8em 1.5em;
+  		font-size: 1em;
 	}
 
-  .home-content h1 {
-		font-size:36px;
-	}
-
-  .header-wrapper h2 {
-      margin-bottom: 20px;
-      text-align: center;
-      display: block;
-  }
-
-  .header-wrapper .breadcrumb {
+    .header-wrapper .breadcrumb {
       float: none;
       text-align: center;
-  }
+    }
 }
-
-@media only screen and (max-width: 480px) {
-  #portfolio [class*='col-xs'] {
-		  width:100%;
-	}
-
-  #numbers [class*='col-xs'] {
-		  width:100%;
-	}
-
-  .contact-form .input:nth-child(1), .contact-form .input:nth-child(2) {
-      width: 100%;
-  }
-  .contact-form .input:nth-child(2) {
-      margin-left: 0px;
-  }
-
-  .reply-form form .input, .reply-form form .input {
-      width: 100%;
-  }
-  .reply-form form .input:nth-child(2) {
-      margin-left: 0px;
-  }
-
-
-
-  .blog-author .media .media-left {
-      display: block;
-      padding-right: 0;
-      margin-bottom: 20px;
-  }
-  .blog-author .media {
-      text-align: center;
-  }
-  .blog-author .media .media-heading .author-social {
-      margin-top: 10px;
-      float: none;
-  }
-  .blog-author .media .media-left img {
-      margin: auto;
-  }
-
-  .blog-comments .media .media {
-      margin:0px -15px;
-  }
-}
-
 
 /*------------------------------------*\
 	Back to top
