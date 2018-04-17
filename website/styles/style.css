@@ -129,6 +129,7 @@ ul, ol {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-image: url('../assets/jec-company-bg.jpg');
 }
 
 .bg-img .overlay {
@@ -189,7 +190,7 @@ ul, ol {
 
 /* --  Buttons  -- */
 
-.main-btn, .white-btn, .outline-btn {
+.main-btn, .secondary-btn, .outline-btn {
     display: inline-block;
     padding: 0.7em 1.1em;
     margin: 0.3em;
@@ -204,7 +205,7 @@ ul, ol {
     color: #FFF;
 }
 
-.white-btn {
+.secondary-btn {
     background: #ba00ff;
     color: #fff !important;
 }
@@ -215,7 +216,7 @@ ul, ol {
     border-color: #0a50ff;
 }
 
-.main-btn:hover, .white-btn:hover, .outline-btn:hover {
+.main-btn:hover, .secondary-btn:hover, .outline-btn:hover {
     opacity: 0.8;
 }
 
@@ -493,7 +494,7 @@ header {
 	About
 \*------------------------------------*/
 
-.about {
+.about, .about-invert {
     position: relative;
     text-align: center;
     padding: 40px 20px;
@@ -501,13 +502,17 @@ header {
     margin: 15px 0px;
 }
 
-.about i {
-    font-size: 36px;
+.about-invert {
+    background-color: #1C1D21;
+}
+
+.about i, .about-invert i {
+    font-size: 3em;
     color: #0a50ff;
     margin-bottom: 20px;
 }
 
-.about a {
+.about a, .about-invert a {
     color: #ba00ff;
 }
 
@@ -533,7 +538,7 @@ header {
     transition: 0.2s color;
 }
 
-.about:hover h3 {
+.about:hover h3, .about-invert h3 {
     color: #fff;
 }
 
@@ -599,7 +604,7 @@ header {
   		font-size:3em;
 	}
 
-    .main-btn , .default-btn , .outline-btn , .white-btn  {
+    .main-btn , .default-btn , .outline-btn , .secondary-btn  {
   		padding: 0.8em 1.5em;
   		font-size: 1em;
 	}

@@ -16,13 +16,18 @@
 
 	///////////////////////////
 	// Smooth scroll
-	$("#nav .main-nav a[href^='#']").on('click', function(e) {
+	function doScroll(e) {
 		e.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
 			scrollTop: $(this.hash).offset().top
 		}, 600);
-	});
+	};
+
+	$("#nav .main-nav a[href^='#']").on('click', doScroll);
+
+	$(".secondary-btn").on('click', doScroll);
+	$(".main-btn").on('click', doScroll);
 
 	$('#back-to-top').on('click', function(){
 		$('body,html').animate({
