@@ -238,7 +238,9 @@
 				<!-- about -->
 				<div class="col-md-6">
 					<div class="about">
+						<h3>GlassCat Server Install</h3>
 						<div class="embed-responsive embed-responsive-16by9">
+							
 							<iframe class="embed-responsive-item"
 								src="https://www.youtube.com/embed/q9PLW8ghxkU" 
 								allowfullscreen>
@@ -261,8 +263,29 @@
 				<div class="col-md-12">
 					<div class="about">
 						<h3>Install Intructions</h3>
-						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-						<a href="https://github.com/pechemann/JEC/wiki/JEC-Publications">Read more</a>
+						<div class="about-install-content">
+							<h4>Requirements</h4>
+							<p>
+								All JEC projects needs the following system parameters in order to work correctly:
+							</p>
+							<ul>
+								<li>Node 6+</li>
+								<li>npm 3+</li>
+								<li>TypeScript 2+</li>
+							</ul>
+							<h4>Install JEC Command Line Interface</h4>
+							<pre>$ [sudo] npm install jec-cli -g</pre>
+							<h4>Install a new GlassCat Server</h4>
+							<pre>$ cd &lt;path/to/your/server&gt;
+$ jec glasscat-install</pre>
+							<h4>Start the GlassCat Server</h4>
+							<pre>$ &lt;path/to/your/server&gt; glasscat start</pre>
+							<p class="about-install-read-more">
+								<a class="secondary-btn" href="https://github.com/pechemann/JEC/wiki/JEC-Publications">
+									Read more
+								</a>
+							</p>
+						</div>
 					</div>
 				</div>
 				<!-- /about -->

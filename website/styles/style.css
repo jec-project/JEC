@@ -509,6 +509,15 @@ header {
     margin: 15px 0px;
 }
 
+.about-install-content {
+    text-align: left;
+}
+
+.about-install-content h4 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+}
+
 .about-invert {
     background-color: #1C1D21;
 }
@@ -536,17 +545,24 @@ header {
     transition: 0.2s width;
 }
 
-.about:hover:after {
-    width: 100%;
-}
-
 .about h3 {
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
 
-.about:hover h3, .about-invert h3 {
+.about-invert h3 {
     color: #fff;
+}
+
+pre {
+    background: #10161A;
+    color: #fff;
+    border-color: #0a50ff;
+}
+
+.about-install-read-more {
+    text-align: center;
+    margin-top: 2em;
 }
 
 /*------------------------------------*\
