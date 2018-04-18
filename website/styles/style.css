@@ -197,7 +197,7 @@ ul, ol {
 
 /* --  Buttons  -- */
 
-.main-btn, .secondary-btn, .outline-btn {
+.main-btn, .secondary-btn, .read-more-btn {
     display: inline-block;
     padding: 0.7em 1.1em;
     margin: 0.3em;
@@ -212,15 +212,13 @@ ul, ol {
     color: #FFF;
 }
 
-.secondary-btn {
-    background: #ba00ff;
-    color: #fff !important;
+.main-btn:hover {
+    color: #FFF;
 }
 
-.outline-btn {
-    background: transparent;
-    color: #0a50ff !important;
-    border-color: #0a50ff;
+.secondary-btn, .read-more-btn {
+    background: #ba00ff;
+    color: #fff !important;
 }
 
 .main-btn:hover, .secondary-btn:hover, .outline-btn:hover {
@@ -505,7 +503,7 @@ header {
     position: relative;
     text-align: center;
     padding: 40px 20px;
-    border: 1px solid #EEE;
+    border: 1px solid #b5cdff;
     margin: 15px 0px;
 }
 
