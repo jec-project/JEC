@@ -142,6 +142,13 @@ ul, ol {
     background: rgba(0, 0, 0, 0.5);
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .bg-img {
+        background-size: unset;
+        background-attachment: unset;
+    }
+}
+
 /* --  home content  -- */
 
 .home-content h1 {
