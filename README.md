@@ -17,19 +17,19 @@ JEC provides an easy-to-use infrastructure to TypeScript and JavaScript develope
 
 For short overview of the project, please visit our Website:
 
-<a href="http://jecproject.org/" rel="nofollow"><span style="font-family: Arial, Helvetica, sans-serif;">►</span> JavaScript Enterprise Container (JEC) Projects</a>
+&#9658; [JavaScript Enterprise Container (JEC) Projects](http://jecproject.org/).
 
 ### Documentation
 
 For a better understanding of the JEC ecosystem visit our WIKI:
 
-<a href="http://jecproject.org/wiki" rel="nofollow"><span style="font-family: Arial, Helvetica, sans-serif;">►</span> JavaScript Enterprise Container (JEC) Wiki</a>
+&#9658; [JavaScript Enterprise Container (JEC) Wiki](http://jecproject.org/wiki).
 
 ### Want to help?
 
 Want to file a bug, contribute some code, or improve documentation? Excellent! Read up on our guidelines for contributing and then check out one of our issues in the hotlist:
 
-<a href="http://jecproject.org/wiki/community" rel="nofollow"><span style="font-family: Arial, Helvetica, sans-serif;">►</span> JEC Community Help</a>
+&#9658; [JEC Community Help](http://jecproject.org/wiki/community).
 
 [jec-url]: http://jecproject.org
 [jec-logo]: https://raw.githubusercontent.com/pechemann/JEC/master/assets/jec-logos/jec-logo.png
