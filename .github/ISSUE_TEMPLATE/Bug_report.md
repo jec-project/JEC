@@ -11,7 +11,6 @@ ISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.
 
 **JEC Project Reference**
 Indicates on which JEC project you found a bug:
-<pre><code>
 <!-- Check one of the following options with "x" -->
 - [x] JEC Commons
 - [ ] GlassCat
@@ -20,15 +19,12 @@ Indicates on which JEC project you found a bug:
 - [ ] JUTA
 - [ ] JEC CLI
 - [ ] Other: [e.g Wildcat]
-</code></pre>
 
 ## I'm submitting a...
-<pre><code>
 [ ] Regression (a behavior that used to work and stopped working in a new release)
 [ ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->
 [ ] Performance issue
 [ ] Other... Please describe:
-</code></pre>
 
 ## Current behavior
 <!-- Describe how the issue manifests. -->
@@ -53,8 +49,7 @@ If applicable, add screenshots to help explain your problem.
 
 ## Environment:
  Please complete the following information:
-
- - Node.js: <!-- run `node --version` -->
+ - Node.js: [run `node --version` ]
  - OS: [e.g. iOS  version XX]
  - Browser [e.g. Chrome version XX, Safari version XX]
 
