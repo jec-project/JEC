@@ -4,39 +4,59 @@ about: Create a report to help us improve
 
 ---
 
-**JEC Project Reference**
-Indicates on which JEC project you found a bug.
+<!--
+PLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATION.
+ISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.
+-->
 
+**JEC Project Reference**
+Indicates on which JEC project you found a bug:
+<pre><code>
+<!-- Check one of the following options with "x" -->
 - [x] JEC Commons
 - [ ] GlassCat
 - [ ] JARS
 - [ ] JDI
 - [ ] JUTA
 - [ ] JEC CLI
-- [ ] Other...
+- [ ] Other: [e.g Wildcat]
+</code></pre>
 
-If you select _Other_, please indicate the name of the project:
+## I'm submitting a...
+<pre><code>
+[ ] Regression (a behavior that used to work and stopped working in a new release)
+[ ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->
+[ ] Performance issue
+[ ] Other... Please describe:
+</code></pre>
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+## Current behavior
+<!-- Describe how the issue manifests. -->
 
-**To Reproduce**
-Steps to reproduce the behavior:
+## Expected behavior
+<!-- Describe what the desired behavior would be. -->
+
+## Minimal reproduction of the problem with instructions
+<!--
+For bug reports please provide the steps to reproduce the behavior:
 1. Create a jslet '...'
 2. Add '....'
 3. Run the server '....'
 4. See error
+-->
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
+## Screenshots
 If applicable, add screenshots to help explain your problem.
 
-**Node.js (please complete the following information):**
- - OS: [e.g. iOS]
- - Version [e.g. 22]
- - Browser [e.g. chrome, safari]
+## What is the motivation / use case for changing the behavior?
+<!-- Describe the motivation or the concrete use case. -->
 
-**Additional context**
-Add any other context about the problem here.
+## Environment:
+ Please complete the following information:
+
+ - Node.js: <!-- run `node --version` -->
+ - OS: [e.g. iOS  version XX]
+ - Browser [e.g. Chrome version XX, Safari version XX]
+
+## Additional context
+<!-- Anything else relevant? -->
