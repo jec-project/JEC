@@ -21,10 +21,10 @@ Indicates on which JEC project you found a bug:
 - [ ] Other: [e.g Wildcat]
 
 ## I'm submitting a...
-[ ] Regression (a behavior that used to work and stopped working in a new release)
-[ ] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->
-[ ] Performance issue
-[ ] Other... Please describe:
+- [x] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->
+- [ ] Regression (a behavior that used to work and stopped working in a new release)
+-[ ] Performance issue
+-[ ] Other... Please describe:
 
 ## Current behavior
 <!-- Describe how the issue manifests. -->
@@ -42,13 +42,13 @@ For bug reports please provide the steps to reproduce the behavior:
 -->
 
 ## Screenshots
-If applicable, add screenshots to help explain your problem.
+<!--If applicable, add screenshots to help explain your problem.-->
 
 ## What is the motivation / use case for changing the behavior?
 <!-- Describe the motivation or the concrete use case. -->
 
 ## Environment:
- Please complete the following information:
+<!-- Please complete the following information:-->
  - Node.js: [run `node --version` ]
  - OS: [e.g. iOS  version XX]
  - Browser [e.g. Chrome version XX, Safari version XX]
