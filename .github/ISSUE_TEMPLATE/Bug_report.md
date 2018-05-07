@@ -1,5 +1,5 @@
 ---
-name: JEC bug report
+name: JEC Bug Report
 about: Create a report to help us improve
 
 ---
@@ -7,13 +7,13 @@ about: Create a report to help us improve
 **JEC Project Reference**
 Indicates on which JEC project you found a bug.
 
-[x] JEC Commons
-[ ] GlassCat
-[ ] JARS
-[ ] JDI
-[ ] JUTA
-[ ] JEC CLI
-[ ] Other...
+- [x] JEC Commons
+- [ ] GlassCat
+- [ ] JARS
+- [ ] JDI
+- [ ] JUTA
+- [ ] JEC CLI
+- [ ] Other...
 
 If you select _Other_, please indicate the name of the project:
 
