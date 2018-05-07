@@ -9,9 +9,17 @@ PLEASE HELP US PROCESS GITHUB ISSUES FASTER BY PROVIDING THE FOLLOWING INFORMATI
 ISSUES MISSING IMPORTANT INFORMATION MAY BE CLOSED WITHOUT INVESTIGATION.
 -->
 
-**JEC Project Reference**
+## I'm submitting a...
+- [x] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->
+- [ ] Regression (a behavior that used to work and stopped working in a new release)
+- [ ] Performance issue
+- [ ] Other... Please describe:
+
+## JEC Project Reference
+<!--
 Indicates on which JEC project you found a bug:
-<!-- Check one of the following options with "x" -->
+Check one of the following options with "x"
+-->
 - [x] JEC Commons
 - [ ] GlassCat
 - [ ] JARS
@@ -19,12 +27,6 @@ Indicates on which JEC project you found a bug:
 - [ ] JUTA
 - [ ] JEC CLI
 - [ ] Other: [e.g Wildcat]
-
-## I'm submitting a...
-- [x] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->
-- [ ] Regression (a behavior that used to work and stopped working in a new release)
-- [ ] Performance issue
-- [ ] Other... Please describe:
 
 ## Current behavior
 <!-- Describe how the issue manifests. -->
@@ -49,9 +51,9 @@ For bug reports please provide the steps to reproduce the behavior:
 
 ## Environment:
 <!-- Please complete the following information:-->
- - Node.js: [run `node --version` ]
- - OS: [e.g. iOS  version XX]
- - Browser [e.g. Chrome version XX, Safari version XX]
+ - Node.js: <!-- run node version-->
+ - OS: <!--e.g. iOS  version XX-->
+ - Browser <!--e.g. Chrome version XX, Safari version XX-->
 
 ## Additional context
 <!-- Anything else relevant? -->
