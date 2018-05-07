@@ -23,8 +23,8 @@ Indicates on which JEC project you found a bug:
 ## I'm submitting a...
 - [x] Bug report  <!-- Please search GitHub for a similar issue or PR before submitting -->
 - [ ] Regression (a behavior that used to work and stopped working in a new release)
--[ ] Performance issue
--[ ] Other... Please describe:
+- [ ] Performance issue
+- [ ] Other... Please describe:
 
 ## Current behavior
 <!-- Describe how the issue manifests. -->
