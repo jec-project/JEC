@@ -17,19 +17,31 @@ JEC provides an easy-to-use infrastructure to TypeScript and JavaScript develope
 
 For short overview of the project, please visit our Website:
 
-&#9658; [JavaScript Enterprise Container (JEC) Projects](http://jecproject.org/).
+<details>
+    <summary><a href="http://jecproject.org/">JavaScript Enterprise Container (JEC) Projects.</a></summary>
+</details>
 
 ### Documentation
 
 For a better understanding of the JEC ecosystem visit our WIKI:
 
-&#9658; [JavaScript Enterprise Container (JEC) Wiki](http://jecproject.org/wiki).
+<details>
+    <summary><a href="http://jecproject.org/wiki">JavaScript Enterprise Container (JEC) Wiki.</a></summary>
+</details>
 
 ### Want to help?
 
 Want to file a bug, contribute some code, or improve documentation? Excellent! Read up on our guidelines for contributing and then check out one of our issues in the hotlist:
 
-&#9658; [JEC Community Help](http://jecproject.org/wiki/community).
+<details>
+    <summary><a href="http://jecproject.org/wiki/community">JEC Community Help.</a></summary>
+</details>
+
+## Contributor License Agreement _(CLA)_
+
+By sending Pull Requests you will automatically agree to our [Contributor License Agreement _(CLA)_](./CONTRIBUTION).
+
+[Learn more about Harmony agreements.](http://harmonyagreements.org/)
 
 [jec-url]: http://jecproject.org
 [jec-logo]: https://raw.githubusercontent.com/pechemann/JEC/master/assets/jec-logos/jec-logo.png
